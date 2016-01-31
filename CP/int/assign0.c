@@ -1,0 +1,19 @@
+#include<stdio.h>
+void main(){
+int i,j,k,n;
+printf("Enter the number of lines to print:");
+scanf("%d",&n);
+  for(i=n;i>=0;i--){
+  	  for(j=1;j<=i;j++)
+	  printf("%c",j+96);
+	  for(k=1;k<=2*(n-i);k++)
+	  printf(" ");  
+	  for(j=i;j>=1;j--)
+	  printf("%c",j+96);
+  
+  
+   printf("\n");
+
+   
+		    }
+	}

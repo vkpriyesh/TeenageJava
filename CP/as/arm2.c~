@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<math.h>
+void main(){
+int t,d,p,s=0;
+for(t=0;t<=500;t++){
+d=t%10;
+p=pow(d,3);
+s=s+p;
+if(t==s)
+  printf("%d\n",s);
+else
+  printf("This is not an Armstrong's number\n");
+t=t/10;
+}
+
+}

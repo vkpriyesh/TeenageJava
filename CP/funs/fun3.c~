@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<~/rp/funs/fun2.c>
+void main(){
+  int n,c;
+  printf("Enter the number to calculate its factorial:");
+  scanf("%d",&n);
+  fun2(n);
+  
+  
+}

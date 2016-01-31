@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+struct car{
+char cn,regn,col,comp;
+float pr;
+};
+void main(){
+struct car c1;
+clrscr();
+printf("Enter: CAR NAME;REGISTRATION NUMBER;COLOR;COMPANY;PRICE:-");
+scanf("%c%c%c%c%f",&c1.cn,&c1.regn,&c1.col,&c1.comp,&c1.pr);
+printf("You have %c coloured %c car of %c company with Registration Number as %c & price as %f.",
+c1.col,c1.cn,c1.comp,c1.regn,c1.pr);
+getch();
+}

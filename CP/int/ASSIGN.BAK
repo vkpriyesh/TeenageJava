@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+int i,j,k,n;
+clrscr();
+printf("Enter the number of lines to print:");
+scanf("%d",&n);
+  for(i=n;i>=0;i--){
+	  for(j=1;j<=i;j++)
+	  printf("%c",j+64);
+	  for(k=1;k<=2*(n-i);k++)
+	  printf(" ");
+	  for(j=i;j>=1;j--)
+	  printf("%c",j+64);
+
+
+   printf("\n");
+
+
+		    }
+		    getch();
+	}

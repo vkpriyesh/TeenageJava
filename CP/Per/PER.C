@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <conio.h>
+void main(){
+float p,c,m,o,e,per;
+clrscr();
+printf("Enter marks for Physics:");
+scanf("%f",&p);
+printf("Enter marks for Chemistry:");
+scanf("%f",&c);
+printf("Enter marks for Mathematics:");
+scanf("%f",&m);
+printf("Enter marks for Optional Subject:");
+scanf("%f",&o);
+printf("Enter marks for English:");
+scanf("%f",&e);
+per=(p+c+m+e+o)/5;
+printf("Your percentage is %f",per);
+getch();
+}

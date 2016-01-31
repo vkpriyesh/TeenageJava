@@ -1,0 +1,25 @@
+#include<constrea.h>
+class pat{
+  int i,j,k,n;
+public:
+  //for pattern 1:
+  void pat1(){
+    cout<<"Enter the number of lines to print:";
+    cin>>n;
+    for (i=1;i<=n;i++){
+      for(j=i;j<=n;j++)
+	cout<<j;
+    }
+  }
+  //for pattern 2:
+  
+};
+
+//main method:
+
+void main(){
+clrscr();
+ pat a;
+ a.pat1();
+getch();
+}

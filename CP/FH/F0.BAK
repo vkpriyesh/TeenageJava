@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+char name;
+FILE *f;
+clrscr();
+f=fopen("st.txt","w");
+printf("Enter student's name:\n");
+scanf("%c",&name);
+putc(name,f);
+fclose(f);
+}
