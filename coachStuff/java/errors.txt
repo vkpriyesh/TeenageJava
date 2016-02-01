@@ -1,0 +1,15 @@
+ArrayIndexOutOfBoundsException: 0
+ArrayIndexOutOfBoundsException: 1
+ArrayIndexOutOfBoundsException: 2 ///...No of arguments passed...////
+
+NoClassDefFoundError: err ///....err is considerd as class name but not exits....////
+
+NumberFormatException.
+
+
+
+possible loss of precision
+generally when in float we assign a value
+ex: float f = 3.15;
+as 3.15 is double to convert it to float use 3.15f
+
